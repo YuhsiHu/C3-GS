@@ -23,6 +23,17 @@ This repository contains the official implementation of our BMVC 2025 paper: ${C
 
 <!-- > **TODO: The code is under preparation for release. Stay tuned for updates!** -->
 
+<table>
+<tr>
+<td><img src="assets/chair_78_0.gif" width="400"/></td>
+<td><img src="assets/hotdog_13_0.gif" width="400"/></td>
+</tr>
+<tr>
+<td><img src="assets/horns_59_0.gif" width="384"/></td>
+<td><img src="assets/room_35_0.gif" width="384"/></td>
+</tr>
+</table>
+
 ## 🔧 Setup
 ### 1.1 Requirements
 Use the following commands to create a conda environment and install the required packages:
