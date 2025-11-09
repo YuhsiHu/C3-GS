@@ -21,7 +21,7 @@
 ## 📌 Introduction
 This repository contains the official implementation of our BMVC 2025 paper: ${C}^{3}$-GS: Learning Context-aware, Cross-dimension, Cross-scale Feature for Generalizable Gaussian Splatting.
 
-> **TODO: The code is under preparation for release. Stay tuned for updates!**
+<!-- > **TODO: The code is under preparation for release. Stay tuned for updates!** -->
 
 ## 🔧 Setup
 ### 1.1 Requirements
@@ -107,6 +107,11 @@ If you find this work useful in your research, please cite:
   year      = {2025}
 }
 ```
+
+## ⚙️ Notice
+To support practical usage on a single GPU (e.g., RTX 3090/4090), the released code applies the Transformer only at the low-resolution level.
+
+Compared to the original paper setting (Transformer at both low and high resolution), this variant trades off a small drop in accuracy for significantly better efficiency and scalability.
 
 ## ❤️ Acknowledgements
 This repository builds on the excellent works of [MVSGaussian](https://github.com/TQTQliu/MVSGaussian), [MVSplat](https://github.com/donydchen/mvsplat). We sincerely thank the authors for their contributions to the community.
