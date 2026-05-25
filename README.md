@@ -5,7 +5,7 @@
     <a href="https://halajun.github.io/" target='_blank'>Jun Zhang</a>,
     <a href="https://easonchen99.github.io/Homepage/" target='_blank'>Kuangyi Chen</a>,  
     <a href="https://www.doublez.site" target='_blank'>Zhe Zhang</a>,    
-    <a href="https://www.tugraz.at/institute/icg/research/team-fraundorfer/people/friedrich-fraundorfer/" target='_blank'>Friedrich Fraundorfer</a>*
+    <a href="https://scholar.google.com/citations?user=M0boL5kAAAAJ&hl=en" target='_blank'>Friedrich Fraundorfer</a>*
 </div>
 
 <br />
@@ -14,6 +14,7 @@
 
 ![Publication](https://img.shields.io/badge/2025-BMVC-440099)
 [![Paper](http://img.shields.io/badge/arxiv-arxiv.2508.20754-B31B1B?logo=arXiv&logoColor=green)](https://arxiv.org/abs/2508.20754)
+[![Project Page](https://img.shields.io/badge/Project-Page-4c8eda?logo=githubpages&logoColor=white)](https://yuhsihu.github.io/C3-GS/)
 ![Pytorch](https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white)
 
 </div>
