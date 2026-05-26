@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <!-- Primary Meta Tags -->
-  <meta name="title" content="${C}^{3}$-GS: Learning Context-aware, Cross-dimension, Cross-scale Feature for Generalizable Gaussian Splatting">
+  <meta name="title" content="C^3-GS: Learning Context-aware, Cross-dimension, Cross-scale Feature for Generalizable Gaussian Splatting">
   <!-- TODO: Write a compelling 150-160 character description of your research -->
   <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
   <!-- TODO: Add 5-10 relevant keywords for your research area -->
@@ -18,7 +18,7 @@
   <meta property="og:type" content="article">
   <!-- TODO: Replace with your institution or lab name -->
   <meta property="og:site_name" content="Graz University of Technology, Peking University">
-  <meta property="og:title" content="${C}^{3}$-GS: Learning Context-aware, Cross-dimension, Cross-scale Feature for Generalizable Gaussian Splatting">
+  <meta property="og:title" content="C^3-GS: Learning Context-aware, Cross-dimension, Cross-scale Feature for Generalizable Gaussian Splatting">
   <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
   <!-- TODO: Replace with your actual website URL -->
   <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
@@ -40,15 +40,15 @@
   <!-- TODO: Replace with first author's Twitter handle -->
   <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
   <!-- TODO: Same as paper title above -->
-  <meta name="twitter:title" content="${C}^{3}$-GS: Learning Context-aware, Cross-dimension, Cross-scale Feature for Generalizable Gaussian Splatting">
+  <meta name="twitter:title" content="C^3-GS: Learning Context-aware, Cross-dimension, Cross-scale Feature for Generalizable Gaussian Splatting">
   <!-- TODO: Same as description above -->
   <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
   <!-- TODO: Same as social preview image above -->
   <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta name="twitter:image:alt" content="${C}^{3}$-GS: Learning Context-aware, Cross-dimension, Cross-scale Feature for Generalizable Gaussian Splatting">
+  <meta name="twitter:image:alt" content="C^3-GS: Learning Context-aware, Cross-dimension, Cross-scale Feature for Generalizable Gaussian Splatting">
 
   <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="${C}^{3}$-GS: Learning Context-aware, Cross-dimension, Cross-scale Feature for Generalizable Gaussian Splatting">
+  <meta name="citation_title" content="C^3-GS: Learning Context-aware, Cross-dimension, Cross-scale Feature for Generalizable Gaussian Splatting">
   <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
   <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
   <meta name="citation_publication_date" content="2024">
@@ -69,7 +69,7 @@
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
 
 
-  <title>${C}^{3}$-GS: Learning Context-aware, Cross-dimension, Cross-scale Feature for Generalizable Gaussian Splatting</title>
+  <title>C^3-GS: Learning Context-aware, Cross-dimension, Cross-scale Feature for Generalizable Gaussian Splatting</title>
   
   <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
@@ -187,7 +187,12 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">C<sup>3</sup>-GS: Learning Context-aware, Cross-dimension, Cross-scale Feature for Generalizable Gaussian Splatting</h1>
+            <h1 class="title is-1 publication-title">
+              <span class="c3-highlight">C</span><sup>3</sup>-GS: Learning
+              <span class="c3-highlight">C</span>ontext-aware,
+              <span class="c3-highlight">C</span>ross-dimension,
+              <span class="c3-highlight">C</span>ross-scale Feature for Generalizable Gaussian Splatting
+            </h1>
             <div class="is-size-5 publication-authors">
               <span class="author-block"><a href="https://yuhsihu.github.io" target="_blank">Yuxi Hu</a><sup>1</sup>,</span>
               <span class="author-block"><a href="https://halajun.github.io" target="_blank">Jun Zhang</a><sup>1</sup>,</span>
@@ -243,7 +248,7 @@
 </section>
 
 <!-- Teaser -->
-<section class="section">
+<section class="hereo teaser">
   <div class="container is-max-desktop">
     <h2 class="title is-3 has-text-centered">Comparison with Existing Methods</h2>
 
@@ -264,18 +269,15 @@
     </div>
 
     <p class="has-text-justified teaser-caption">
-      <strong>Comparison with existing methods.</strong>
-      <strong>Left:</strong> Generalization results on DTU with 3 input views, where our
-      method achieves higher PSNR and SSIM.
-      <strong>Right:</strong> Synthesized images on “Horse” and “Family” scenes from
-      Tanks and Temples, highlighting improved visual fidelity.
+      <strong>Left:</strong> Generalization results on DTU with 3 input views, where our method achieves higher PSNR and SSIM.
+      <strong>Right:</strong> Synthesized images on “Horse” and “Family” scenes from Tanks and Temples, highlighting improved visual fidelity.
     </p>
   </div>
 </section>
 <!-- End teaser -->
 
 <!-- Rendered GIF results -->
-<section class="section hero is-light" id="rendered-results">
+<!-- <section class="section hero is-light" id="rendered-results">
   <div class="container is-max-desktop">
     <h2 class="title is-3 has-text-centered">Rendered Results</h2>
     <div class="gif-grid">
@@ -300,11 +302,63 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End rendered GIF results -->
 
+<!-- Rendered video results -->
+<section class="section hero is-light" id="rendered-results">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Rendered Results</h2>
+
+    <div class="video-grid compact-video-grid">
+      <div class="video-item">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="static/videos/chair_78_0.mp4" type="video/mp4">
+        </video>
+        <p class="has-text-centered">chair</p>
+      </div>
+
+      <div class="video-item">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="static/videos/hotdog_13_0.mp4" type="video/mp4">
+        </video>
+        <p class="has-text-centered">hotdog</p>
+      </div>
+
+      <div class="video-item">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="static/videos/materials_46_0.mp4" type="video/mp4">
+        </video>
+        <p class="has-text-centered">materials</p>
+      </div>
+
+      <div class="video-item">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="static/videos/horns_59_0.mp4" type="video/mp4">
+        </video>
+        <p class="has-text-centered">horns</p>
+      </div>
+
+      <div class="video-item">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="static/videos/room_35_0.mp4" type="video/mp4">
+        </video>
+        <p class="has-text-centered">room</p>
+      </div>
+
+      <div class="video-item">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="static/videos/fortress_21_0.mp4" type="video/mp4">
+        </video>
+        <p class="has-text-centered">fortress</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End rendered video results -->
+
 <!-- Paper abstract -->
-<section class="section hero is-light">
+<section class="section hero">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -323,7 +377,7 @@
 <!-- End paper abstract -->
 
 <!-- Pipeline -->
-<section class="section">
+<section class="section hero is-light", id="pipeline">
   <div class="container is-max-desktop">
     <h2 class="title is-3 has-text-centered">Pipeline</h2>
 
@@ -335,19 +389,15 @@
         loading="lazy">
 
       <p class="has-text-justified" style="margin-top: 1.25rem;">
-        <strong>The overall architecture.</strong>
-        The proposed method is a coarse-to-fine framework that estimates depths and Gaussian
-  representations from low resolution stage ℓ to high resolution stage ℓ+1. It extracts
-  features from N source images using a feature pyramid network and CGA. These features are warped into the target camera frustum planes to construct the
-  3D cost volume <strong>C</strong>. Regularization via 3D CNN yields the probability volume <strong>P</strong> that is regressed to generate the depth map
-  <strong>D</strong><sub>0</sub>, which serves as the Gaussian centers after unprojection.
-  CDA is designed to enhance the interaction between 2D features from input views and 3D
-  scene information from the cost volume <strong>C</strong> and the compressed features
-  <strong>F</strong><sub>u</sub> from 2D features using a U-Net. The enhanced features
-  <strong>F</strong><sub>g</sub> from CDA are decoded to obtain the other Gaussian parameters,
-  i.e., opacity, color, scale, and rotation, via lightweight MLPs. By fusing the enhanced
-  features from coarse and fine stages, the CSF produces weights for modifying Gaussian
-  opacity. The output Gaussians are used to render the novel view <strong>I</strong><sub>0</sub>.
+  <strong>The overall architecture.</strong>
+  The proposed method is a coarse-to-fine framework that estimates depths and Gaussian representations 
+  from low resolution stage ℓ to high resolution stage ℓ+1. It extracts features from N source images using a feature pyramid network and CGA. 
+  These features are warped into the target camera frustum planes to construct the 3D cost volume <strong>C</strong>. 
+  Regularization via 3D CNN yields the probability volume <strong>P</strong> that is regressed to generate the depth map <strong>D</strong><sub>0</sub>, which serves as the Gaussian centers after unprojection.
+  CDA is designed to enhance the interaction between 2D features from input views and 3D scene information from the cost volume <strong>C</strong> and the compressed features <strong>F</strong><sub>u</sub> from 2D features using a U-Net. 
+  The enhanced features <strong>F</strong><sub>g</sub> from CDA are decoded to obtain the other Gaussian parameters, i.e., opacity, color, scale, and rotation, via lightweight MLPs. 
+  By fusing the enhanced features from coarse and fine stages, the CSF produces weights for modifying Gaussian opacity. 
+  The output Gaussians are used to render the novel view <strong>I</strong><sub>0</sub>.
       </p>
     </div>
   </div>
